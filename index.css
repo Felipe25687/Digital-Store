@@ -10,16 +10,22 @@
 }
 
 header {
+    display: block;    
     width: 1440px;
     height: 192px;
-
+    align-items: center;
+    justify-items: center;
+    
 }
 
 header .container {
 
     display: flex;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100%;
     margin-top: 50px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -92,16 +98,16 @@ header .container #entrar{
     background-color: #C92071;
     color: white;
     border-radius: 8px;
-    width: 82px;
-    height: 30px;
-    padding-left: 40px;
-    padding-top: 15px;
+    width: 114px;
+    height: 40px;
     text-decoration: none;
     
 }
 
 header .container .link{
-    margin-left: 20px;
+    width: 33px;
+    height: 29px;
+    margin-left: 50px;
 }
 
 header .container2 nav{
@@ -120,7 +126,7 @@ header .container2 nav ul{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 100px;
+    padding-inline-start: 200px;
     font-size: 16px;
     
 }
@@ -129,3 +135,345 @@ header .container2 nav ul a:hover{
     text-decoration: underline;
 }
 
+section{
+    display: flex;
+    width: 1440px;
+    height: 681px;    
+    margin-left: 200px;
+    
+}
+
+.container3 .texto{
+    height: 300px; 
+}
+
+.container3 .texto #oferta{
+    font-size: 16px;
+    color: #F6AA1C;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.container3 .texto h1{
+    font-size: 64px;
+    font-weight: bold;
+    padding-top: 20px;
+    
+    
+}
+.container3 .texto #latim{
+    font-size: 18px;
+    color: #474747;
+    padding-top: 10px;
+}
+.container3 .texto button{
+    width: 220px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 50px;
+    background-color: #C92071;
+}
+
+.imagem-nike {
+    position: relative;
+  
+    width: 60%;
+}
+.imagem-nike img{
+    
+    
+
+}
+.imagem-nike .figurinha{
+    margin-top: 50px;
+    position: absolute;
+    bottom: 450px;
+    left: 770px;
+}
+
+.grupo {
+    width: 78px;
+    height: 12px;
+    margin-left: 900px;
+    bottom: 70px;
+    position: relative;    
+}
+.container4{
+    display: block;
+    margin-top: 20px;
+    height: 400px;
+    
+}
+.container4 .titulo-colecao{
+    font-size: 24px;
+    color: #474747;
+    font-weight: bold;
+    height: 48px;
+    width: 100%;
+}
+.container4 .promocao{
+    
+    display: flex;
+     gap: 50px;
+}
+
+.container4 .promocao .imagem1{
+    display: block;
+    width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    background-color:  #D8E3F2;
+    position: relative;
+    z-index: 0;
+}
+.container4 .promocao .imagem1 .caixa1{
+    position: absolute;
+    z-index: 2;
+}
+.container4 .promocao .imagem1 .caixa1 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #474747;
+    background-color: #E7FF86;
+    border-radius: 29px;
+    width: 66px;
+    height: 20px;
+    padding: 7px 15px 5px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.container4 .promocao .imagem1 .caixa1 h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    height: 78px;
+    width: 160px;
+}
+.container4 .promocao .imagem1 .caixa1 button{
+    width: 153px;
+    height: 48px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #C92071;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container4 .promocao .imagem1 .caixa1-2{
+    width: 242px;
+    height: 251px;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 166px;
+}
+
+.container4 .promocao .imagem2{
+    display: block;
+    width: 405px;
+    height: 251px;
+    background-color:  #D8E3F2;
+    border-radius: 8px;
+    position: relative;
+    z-index: 0;
+}
+.container4 .promocao .imagem2 .caixa2{
+    position: absolute;
+    z-index: 2;
+}
+.container4 .promocao .imagem2 .caixa2 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #474747;
+    background-color: #E7FF86;
+    border-radius: 29px;
+    width: 66px;
+    height: 20px;
+    padding: 7px 15px 5px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.container4 .promocao .imagem2 .caixa2 h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    height: 78px;
+    width: 160px;
+}
+.container4 .promocao .imagem2 .caixa2 button{
+    width: 153px;
+    height: 48px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #C92071;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container4 .promocao .imagem2 .caixa2-2{
+    width: 242px;
+    height: 251px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 163px;
+}
+
+.container4 .promocao .imagem3{
+    display: block;
+    width: 405px;
+    height: 251px;
+    background-color:  #D8E3F2;
+    border-radius: 8px;
+    position: relative;
+    z-index: 0;
+}
+.container4 .promocao .imagem3 .caixa3{
+    position: absolute;
+    z-index: 2;
+}
+.container4 .promocao .imagem3 .caixa3 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #474747;
+    background-color: #E7FF86;
+    border-radius: 29px;
+    width: 66px;
+    height: 20px;
+    padding: 7px 15px 5px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.container4 .promocao .imagem3 .caixa3 h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    height: 78px;
+    width: 175px;
+}
+.container4 .promocao .imagem3 .caixa3 button{
+    width: 153px;
+    height: 48px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #C92071;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container4 .promocao .imagem3 .caixa3-3{
+    width: 242px;
+    height: 251px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 179px;
+}
+#titulo{
+    font-size: 24px;
+    color: #474747;
+    font-weight: bold;
+    height: 48px;
+    width: 100%;
+    margin-left: 730px;
+    
+}
+
+.container5{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 505px;
+    align-items: center;
+    gap: 60px;
+    width: 738px;
+    height: 138px;
+}
+.container5 .tipo1{
+    
+    width: 104px;
+    height: 138px;
+    align-items: center;
+}
+.container5 .tipo1  p{
+    margin-top: 20px;
+    font-size: small 16px;
+    text-align: center;
+}
+.container5 .tipo1  img{
+    margin-top: 20px;
+    margin-left: 15px;      
+}
+.container5 .tipo2{
+    
+    width: 104px;
+    height: 138px;
+    align-items: center;
+}
+.container5 .tipo2  p{
+    margin-top: 20px;
+    font-size: small 16px;
+    text-align: center;
+}
+.container5 .tipo2  img{
+    margin-top: 20px;
+    margin-left: 15px;      
+}
+.container5 .tipo3{
+    
+    width: 104px;
+    height: 138px;
+    align-items: center;
+}
+.container5 .tipo3  p{
+    margin-top: 20px;
+    font-size: small 16px;
+    text-align: center;
+}
+.container5 .tipo3 .card img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80%;
+    height: 80%;
+    
+}
+
+.container5 .tipo4{
+    
+    width: 104px;
+    height: 138px;
+    align-items: center;
+}
+.container5 .tipo4  p{
+    margin-top: 20px;
+    font-size: small 16px;
+    text-align: center;
+}
+.container5 .tipo4  img{
+    margin-top: 20px;
+    margin-left: 15px;      
+}
+.container5 .tipo5{
+    
+    width: 104px;
+    height: 138px;
+    align-items: center;
+}
+.container5 .tipo5  p{
+    margin-top: 20px;
+    font-size: small 16px;
+    text-align: center;
+}
+.container5 .tipo5  img{
+    margin-top: 20px;
+    margin-left: 15px;      
+}
