@@ -219,10 +219,21 @@ justify-content: center;
 .container-2 .container-colecoes{
     display: flex;
     flex-direction: column;
-}
-.container-2 .container-colecoes h3{
-
+    justify-content: center;
+    align-items: center;
 }
 .container-2 .container-colecoes .colecoes{
     display: flex;
+}
+.container-2 .container-produtos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rebeccapurple;
+}
+.container-2 .container-produtos .titulo-produtos{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+    margin-left: 100px;
+    margin-right: 100px;
 }
