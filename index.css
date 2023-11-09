@@ -155,6 +155,7 @@ header .menu-header ul li a{
     display: flex;
     flex-direction: column;
     width: 1440px;
+    background-color: #FAFAFA;;
 }
 .container-2 h3{
     margin-top: 50px;
@@ -228,12 +229,84 @@ justify-content: center;
 .container-2 .container-produtos{
     display: flex;
     flex-direction: column;
-    border: 1px solid rebeccapurple;
+   
+}
+.container-2 .container-produtos .sapatos{
+    margin-left: 100px;
 }
 .container-2 .container-produtos .titulo-produtos{
     display: flex;
     justify-content: space-between;
-    border: 1px solid rebeccapurple;
+    margin-top: 90px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 20px;
+}
+.container-2 .container-produtos .sapatos div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 292px;
+    height: 439px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  
+    margin: 5px;
+    gap: 5px;
+}
+.container-2 .container-produtos .sapatos div img{
+    width: 100%;
+    height: 270px;
+    background-color: white;
+    position: relative;
+}
+.container-2 .container-produtos .sapatos div p{
+    position: absolute;
+    margin-left: 30px;
+margin-top: 30px;
+background-color: #E7FF86;
+width: 92px;
+height: 32px;
+padding: 5px, 15px, 5px, 15px;
+border-radius: 29px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container-2 .container-produtos .sapatos div h3{
+    text-align: left;
+}
+.container-2 .container-produtos .sapatos div h6{
+    margin-top: 30px;
+}
+.container-2 .container-produtos .sapatos div h4, h5, h6{
+    margin-left: 30px;
+}
+
+.container-3{
+    display: flex;
+}
+.container-3 .img-container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 130px;
+}
+.container-3 .img-container{
+display: flex;
+flex-direction: column;
+border: 1px solid red;
+width: 35%;
+}
+.container-3 .img-container .ellipse{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+.container-3 .img-container .sapatos2{
+    position: absolute;
+    width: 573px;
+    margin-top: 60px;
+
 }
