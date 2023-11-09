@@ -21,7 +21,7 @@ header {
 header .container {
 
     display: flex;
-    margin-left: 200px;
+    margin-left: 237px;
     margin-right: 200px;
     width: 100%;
     margin-top: 50px;
@@ -126,7 +126,7 @@ header .container2 nav ul{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 200px;
+    padding-inline-start: 237px;
     font-size: 16px;
     
 }
@@ -139,7 +139,7 @@ section{
     display: flex;
     width: 1440px;
     height: 681px;    
-    margin-left: 200px;
+    margin-left: 237px;
     
 }
 
@@ -215,7 +215,8 @@ section{
 .container4 .promocao{
     
     display: flex;
-     gap: 50px;
+    gap: 113px;
+     
 }
 
 .container4 .promocao .imagem1{
@@ -385,18 +386,19 @@ section{
     font-weight: bold;
     height: 48px;
     width: 100%;
-    margin-left: 730px;
+    margin-left: 810px;
     
 }
 
 .container5{
     display: flex;
     margin-top: 20px;
-    margin-left: 505px;
+    margin-left: 585px;
     align-items: center;
     gap: 60px;
     width: 738px;
     height: 138px;
+    
 }
 .container5 .tipo1{
     
