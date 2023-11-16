@@ -9,11 +9,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 header {
     display: block;    
@@ -27,11 +22,12 @@ header {
 header .container {
 
     display: flex;
-    margin-right: 200px;
+    
     width: 100%;
     margin-top: 50px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    margin-left: 70px;
 }
 
 header .logo {
@@ -60,7 +56,7 @@ header .logo h1 {
 
 header .input-pesquisar {
     display: absolute;
-    margin-left: 50px;
+    margin-left: 20px;
     width: 559px;
     height: 60px;
     border-radius: 8px;
@@ -94,25 +90,28 @@ header .input-pesquisar .botao {
 }
 
 header .container #cadastro{
-    margin-left: 80px;
+    
     text-decoration: underline;
+    color: #474747;
+    margin-left: 10px;
 }
 
 header .container #entrar{
-    margin-left: 15px;
+   
     background-color: #C92071;
     color: white;
     border-radius: 8px;
     width: 114px;
     height: 40px;
     text-decoration: none;
+    margin-left: 10px;
     
 }
 
 header .container .link{
     width: 33px;
     height: 29px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 header .container2 nav{
@@ -123,7 +122,9 @@ header .container2 nav ul{
     gap: 30px;
     
 }
-
+header .container2 nav ul a{
+    color: #474747;
+}
 #nave{
     /* display: block; */
     /* list-style-type: disc; */
@@ -131,7 +132,7 @@ header .container2 nav ul{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 237px;
+    padding-inline-start: 70px;
     font-size: 16px;
     
 }
@@ -150,6 +151,7 @@ section{
 
 .container3 .texto{
     height: 300px; 
+    margin-left: 70px;
 }
 
 .container3 .texto #oferta{
@@ -184,6 +186,7 @@ section{
     position: relative;
   
     width: 60%;
+    left: -150px;
 }
 .imagem-nike img{
     
@@ -194,13 +197,13 @@ section{
     margin-top: 50px;
     position: absolute;
     bottom: 450px;
-    left: 770px;
+    left: 720px;
 }
 
 .grupo {
     width: 78px;
     height: 12px;
-    margin-left: 900px;
+    margin-left: 631px;
     bottom: 70px;
     position: relative;    
 }
