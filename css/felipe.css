@@ -68,6 +68,9 @@ header .input-pesquisar {
     background: -ms-linear-gradient(left, #ffffff, #d3d3d3);
     background: -o-linear-gradient(left, #ffffff, #d3d3d3);
     background: linear-gradient(to right, #ffffff, #d3d3d3);
+    
+
+
 
 
 
@@ -145,7 +148,8 @@ section{
     display: flex;
     width: 1440px;
     height: 681px;    
-    
+    background-color: #F5F5F5;
+    ;
     
 }
 
