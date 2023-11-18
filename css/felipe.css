@@ -86,14 +86,14 @@ header .input-pesquisar .botao {
 
     height: 24px;
     width: 24px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 header .container #cadastro{
     
     text-decoration: underline;
     color: #474747;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 header .container #entrar{
@@ -104,14 +104,14 @@ header .container #entrar{
     width: 114px;
     height: 40px;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 20px;
     
 }
 
 header .container .link{
     width: 33px;
     height: 29px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 header .container2 nav{
@@ -196,8 +196,8 @@ section{
 .imagem-nike .figurinha{
     margin-top: 50px;
     position: absolute;
-    bottom: 450px;
-    left: 720px;
+    bottom: 500px;
+    left: 680px;
 }
 
 .grupo {
@@ -219,11 +219,13 @@ section{
     font-weight: bold;
     height: 48px;
     width: 100%;
+    margin-left: 70px;
 }
 .container4 .promocao{
     
     display: flex;
-    gap: 113px;
+    gap: 12px;
+    margin-left: 10px;
      
 }
 
@@ -394,14 +396,14 @@ section{
     font-weight: bold;
     height: 48px;
     width: 100%;
-    margin-left: 810px;
+    margin-left: 525px;
     
 }
 
 .container5{
     display: flex;
     margin-top: 20px;
-    margin-left: 585px;
+    margin-left: 300px;
     align-items: center;
     gap: 60px;
     width: 738px;
